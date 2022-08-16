@@ -5,7 +5,8 @@
   "typings": "types/index.d.ts",
   "main": "lib",
   "scripts": {
-    "build": "sol2ts contracts.config.json",
+    "build": "sol2ts contracts.config.json && npm run build:lib",
+    "build:contracts": "sol2ts contracts.json",
     "build:lib": "tsc && node esbuild.bundle",
     "deploy": "ts-node tools/deploy"
   },
