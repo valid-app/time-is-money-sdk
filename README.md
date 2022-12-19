@@ -1,4 +1,5 @@
-# Deploy contracts
+# This repository is deprecated
+### Deploy contracts
 Run `docker-compose up install` or `npm i`.
 
 Navigate to `/data`.
